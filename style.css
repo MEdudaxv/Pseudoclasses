@@ -1,0 +1,109 @@
+/*formulario*/
+a:hover{
+    color: #f712b2;
+}
+input[type="text"]:focus,input[type="email"]:focus{
+    border-color: #f712b2;
+    outline: none;
+}
+/* altera a cor do newsletter*/
+input[type="checkbox"]:checked + label{
+color: #f712b2;
+}
+/*botao ativado*/
+button{
+    background-color: #f712b210;
+    color: #f712b2;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+}
+/*botao desativado*/
+button:disabled{
+    background-color: #890bf0;
+    color: #f712b2;
+    cursor: not-allowed;
+}
+/*borda do form*/
+form{
+    border: 4px solid #f712b2;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
+.input:focus{
+    outline: none;
+    color: #7ebfdd;
+}
+
+/*GALERIA*/
+
+ul.galeria {
+    list-style-type: none; 
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0;
+    margin: 0;
+}
+ul.galeria li {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #fc76ea;
+    width: calc(25% - 20px); 
+    box-sizing: border-box;
+}
+ul.galeria li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+ul.galeria li:nth-child(odd){
+    background-color: rgba(236, 59, 192, 0.219);
+}
+/*formato das fts*/
+li{
+    width: 15%;
+    height: auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*fundo nas fotos*/
+li:nth-child(odd){
+    background-color: aliceblue;
+    padding: 5px;
+}
+/*paragrafos*/
+p:first-child{
+    font-weight: bold;
+    color: #790656;
+}
+p:last-child{
+    font-style: italic;
+    color: rgb(231, 46, 148);
+}
+nav{
+    background-color: aliceblue;
+    padding: 10px 2px;
+    text-align: center;
+}
